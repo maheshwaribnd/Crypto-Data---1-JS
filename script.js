@@ -14,7 +14,7 @@ async function CoinWeb() {
             <td><img class="img" src=${item?.image}/></td>
             <td>${item?.name}</td>
             <td style="text-transform: uppercase;">${item?.symbol}</td>
-            <td>$${item?.current_price}<td/>
+            <td>$${item?.current_price}</td>
             <td>${item?.price_change_percentage_24h}%</td>
             <td>$${item?.market_cap}</td>
         </tr>
